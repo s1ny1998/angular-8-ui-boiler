@@ -1,0 +1,19 @@
+.uv-fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.uv-mat-toolbar {
+    background: var(--vert-gradient-success-fallback);
+    /* background:  linear-gradient(to left, #f8333c, #e845a1, #9778dc, #2594da, #2b9eb3) !important; */
+    background: black !important;
+    position: absolute;
+    width:100%;
+    z-index: 100;
+}
+.logout {
+    color:white;
+    font-size: 10vh;
+}
+ span{
+    font-family: 'Lato' !important;
+ }

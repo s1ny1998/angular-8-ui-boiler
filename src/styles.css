@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~normalize.css";
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+
+body {
+    --vert-gradient-primary: linear-gradient(to right, #4776e6, #8e54e9);
+    --vert-gradient-primary-reverse: linear-gradient(to bottom, #4776e6, #8e54e9);
+
+    /* --vert-gradient-primary: linear-gradient(to right, #373b44, #4286f4); */
+    /* --vert-gradient-primary-reverse: linear-gradient(to bottom, #373b44, #4286f4); */
+    --vert-gradient-primary-fallback: #373b44;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Lato', sans-serif !important; */
+    font-family: 'Lato' !important;
+}
+
+html, body {
+    font-family: 'Lato' !important;
+}
+
+mat-card{
+    font-family: 'Lato' !important;
+}
